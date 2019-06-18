@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fragments"
+    android:id="@+id/pokeListFrg">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        style="@style/recyclerView"
+        android:id="@+id/recyclerViewList">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <include
+        layout="@layout/content_layout"
+        style="@style/contentLayout">
+    </include>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar"/>
+
+</RelativeLayout>
